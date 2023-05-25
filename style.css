@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+}
+.header{
+    height: 20vh;
+    width: 100%;
+    background: coral;
+    z-index: 10;
+    position: fixed;
+    display: grid;
+}
+h1{
+    align-self: center;
+}
+.scrollBar{
+    width: 100%;
+    height: 10px;
+    background-color: grey;
+    align-self: flex-end;
+}
+.scroll{
+    width: 0%;
+    height: 100%;
+    background: red;
+}
+.content{
+    background: lightgreen;
+    width: 100%;
+    height: 90vh;
+}
+.content1{
+    background: blue;
+    width: 100%;
+    height: 80vh;
+}
